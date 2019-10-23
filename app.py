@@ -22,4 +22,4 @@ def guardarIndicador():
     requests.post('http://localhost:5000/indicadores', json=indicador)
     return(crearIndicador())
 
-app.run(port=8000, debug=True)
+app.run()
